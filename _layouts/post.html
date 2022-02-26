@@ -8,7 +8,8 @@ layout: default
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = "%Y/%m/%d" -%}
-        {{ page.date | date: date_format }}
+        {{ page.date | date: date_format }} Posted <br>
+		{{ page.editdate | date: date_format }} Last Edited
       </time>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
