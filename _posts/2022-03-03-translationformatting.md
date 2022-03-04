@@ -53,7 +53,7 @@ The layout is vertically successive, as was Tofugu's.
 
 ![Vocaloid Wiki Screenshot](/assets/translationformatting/vocaloidwiki1.jpg)
 
-This uses as HTML table, as do I.
+This uses an HTML table, as do I.
 
 Specific page [here](https://vocaloidlyrics.fandom.com/). Finally, the other alignment style: the text and its translation aligned horizontally instead of in vertical succession. I don't need to tell you this specific site is unnatractive but there's potential here as well. 
 
